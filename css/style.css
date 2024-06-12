@@ -46,6 +46,57 @@ a {
   color: inherit;
 }
 
+.header__menu {
+    display: flex;
+}
+
+.header__menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header__menu-mobile {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header__menu-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu-mobile ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__menu-mobile ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu-toggle {
+        display: block;
+    }
+
+    .header__menu-mobile {
+        display: flex;
+    }
+}
 
 .flex-center {
   display: flex;

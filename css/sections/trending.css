@@ -5,7 +5,9 @@
     flex-direction: column;
     overflow: hidden;
   }
-  
+  .trending__content p{
+    font-size: 35px;
+  }
   .trending__discover {
     position: absolute;
     top: 44%;
@@ -25,7 +27,7 @@
   }
   
   .trending__discover p {
-    font-size: 18px;
+    font-size: 38px;
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
   
@@ -77,14 +79,14 @@
   }
   
   .trending__icon img {
-    width: 50%;
-    height: 50%;
+    width: 120%;
+    height:   50%;
     object-fit: contain;
   }
   
   .trending__list p {
     flex: 1;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 500;
     font-family: var(--plus-jakarta-sans);
   
@@ -95,7 +97,7 @@
     flex: 1;
   
     position: relative;
-    padding: 32px 64px;
+    padding: 45px 64px;
   
     background-color: var(--color-white);
     background-repeat: no-repeat;
@@ -112,8 +114,8 @@
   }
   
   .trending__image img {
-    width: 254px;
-    height: 260px;
+    width: 454px;
+    height: 460px;
     object-fit: contain;
   }
   

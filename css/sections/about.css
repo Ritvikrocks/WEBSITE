@@ -27,24 +27,24 @@
     background-size: contain;
   }
   
-  .about-us__image-sushi3 {
+  /*.about-us__image-sushi3 {
     border-bottom: 8px solid var(--color-creamson);
   
     background-image: url("../../assets/about_bg1.png")
-  }
+  }*/
   
-  .about-us__image-sushi2 {
+  /*.about-us__image-sushi2 {
     background-image: url("../../assets/about_bg2.png")
-  }
+  }*/
   
   .about-us__image-sushi3 img {
-    width: 100px;
+    width: 300px;
     height: 160px;
   }
   
   .about-us__image-sushi2 img {
-    width: 220px;
-    height: 100px;
+    width: 320px;
+    height: 200px;
   }
   
   .about-us__button {

@@ -32,6 +32,7 @@ const trendingDrinks = [
     "Mugicha",
 ]
 
+
 const cards = [
     {
         imgSrc: sushi12,
